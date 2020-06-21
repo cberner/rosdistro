@@ -2395,7 +2395,9 @@ python-mako:
 python-mapnik:
   debian: [python-mapnik]
   fedora: [mapnik-python]
-  ubuntu: [python-mapnik]
+  ubuntu:
+    '*': [python-mapnik]
+    focal: [python3-mapnik]
 python-markdown:
   debian: [python-markdown]
   fedora: [python-markdown]
