@@ -1002,7 +1002,9 @@ python-cherrypy:
   debian: [python-cherrypy3]
   fedora: [python-cherrypy]
   gentoo: [dev-python/cherrypy]
-  ubuntu: [python-cherrypy3]
+  ubuntu:
+    '*': [python-cherrypy3]
+    focal: [python3-cherrypy3]
 python-clearsilver:
   debian: [python-clearsilver]
   fedora: [python-clearsilver]
