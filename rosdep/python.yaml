@@ -1063,7 +1063,9 @@ python-colorama:
   osx:
     pip:
       packages: [colorama]
-  ubuntu: [python-colorama]
+  ubuntu:
+    '*': [python-colorama]
+    focal: [python3-colorama]
 python-concurrent.futures:
   debian: [python-concurrent.futures]
   fedora: [python-futures]
